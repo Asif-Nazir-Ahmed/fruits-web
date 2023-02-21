@@ -1,0 +1,193 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    background: url(./IMG/bl2.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+nav {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+.logo{
+float: left;
+color: aliceblue;
+font-size: 30px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+animation-name: change;
+animation-duration: 1s;
+animation-iteration-count: 7;
+}
+
+
+.btn button{
+    transition-property: background;
+    transition-duration: 1s;
+}
+
+.btn button{
+    float: right;
+    font-weight: bold;
+    color: aliceblue;
+    border-radius: 1rem;
+    padding: 5px  20px;
+    background: none;
+    border: 2px solid white;
+}
+
+.center{
+    position: absolute;
+    top:40%;
+    left:30%;
+
+}
+.center input{
+    width:20vw;
+    padding:0.5rem 2rem;
+    margin-top: 0.5rem;
+    border: none;
+    outline: none;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius:1rem;
+}
+.center button{
+    padding:0.5rem 2rem;
+    background: orange;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius:1rem;
+    border: none;
+    outline: none;
+    cursor:pointer ;
+}
+.card-wraper{
+    height: 160vh;
+}
+body{
+    height: 3000px;
+
+}
+
+
+.card-wraper h2{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    animation-name: change;
+    animation-duration: 1s;
+    animation-iteration-count: 7;
+    
+    
+}
+.card{
+    margin-left: 3rem;
+    float: left;
+    margin-top: 3rem;
+    padding-bottom: 100px;
+}
+.card img {
+
+    height: 400px;
+}
+ .text h1{
+    color:black;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 70px;
+
+ }
+ @keyframes change{
+    10%{ 
+        color: red;
+    }
+    20%{
+        color:yellow;
+    }
+    30%{
+        color:rgb(0, 13, 255);
+    }
+ }
+ #container{
+    width: 93%;
+    margin: auto;
+ }
+
+
+ .about-img img{
+    border-radius: 10px;
+    float: left;
+    width: 300px;
+    
+    
+ }
+ .about-content{
+    float: right;
+    width: 700px;
+    line-height: 30px;
+ }
+ .about-imgr img{
+    padding-top: 90px;
+    float: right;
+    width: 300px;
+
+
+ }
+ .about-contentl{
+    border: 3px solid black;
+    margin-top: 20px;
+    padding-top: 60px;
+    float:left;
+    width: 700px;
+    line-height: 30px;
+    padding: 20px;
+    background: teal;
+    color: aliceblue;
+ }
+ .about-contentl h2{
+    color: tomato;
+ }
+ .btn button{
+    color: white;
+    background: black;
+    transition-property: all;
+    transition-duration: 1s;
+    
+ }
+ .btn button:hover{
+    background:tomato;
+    color:black;
+ }
+.text h3{
+    padding-top: 40%;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    font-size: 40px;
+    animation-name: change;
+    animation-duration:1s;
+    animation-duration:alter;
+    animation-iteration-count:infinite;
+ }
+
+.text h1{
+    transition-property:color;
+    transition-timing-function:ease ease-in-out;
+    transition-duration:1s;
+}
+.text h1:hover{
+    background:black;
+    color: yellow;
+
+
+}
+
+
+
+
+
+

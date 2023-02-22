@@ -1,0 +1,130 @@
+.link{
+    float: left;
+
+}
+body{
+background-color: rgb(5, 54, 54);
+height: 150vh;
+}
+
+nav{
+    padding-top: 20px;
+   max-width:80%;
+   margin: auto;
+   margin-top: 20px;
+}
+ a{
+    color:brown;
+    text-decoration: none;
+    font-style: inherit;
+
+}
+a{
+    margin-left: 10px;
+    color: aliceblue;
+    font-weight: bold;
+
+}
+
+.search{
+    float: right;
+    border-radius:2px;
+
+}
+input{
+    padding: 7px 20px;
+    border-radius: 2px black solid;
+}
+    
+
+.btn {
+    padding: 2px 5px;
+    color: white;
+    background:tomato;
+    border: 2px solid white;
+
+    
+}
+main{
+    width:80%;
+    margin: auto;
+    margin-top: 100px;
+    color: aliceblue;
+    line-height:20px;
+    
+}
+
+
+
+h2{
+    color:white;
+}
+.btn-2{
+    padding: 2px 5px;
+    color:black;
+    background:tomato;
+    border: 2px solid white;
+    border-radius: 5px solid red;
+
+}
+
+/* cards */
+
+
+#card-w{
+    display: flex;
+    justify-content:space-between;
+
+
+
+}
+
+.content p{
+    line-height: 0.7rem;
+    text-align: center;
+}
+
+.card .image img{
+    display:block;
+    margin: auto;
+    width: 300px;
+}
+#testimo{
+  padding-top:4rem;
+}
+
+#testimo h1{
+    color: aliceblue;
+    padding-bottom: 3rem;
+    font-size: 20px;
+    text-align: center;
+
+}
+.card-3{
+    background-color: tomato;
+    border: 1px solid gray;
+    width: 300px;
+    padding: 1rem;
+    box-shadow: 0 0.5rem 0.4rem rgba(0,0,0,0.7);
+}
+.title{
+    padding-top: 1rem;
+}
+
+.title p{
+    line-height: 1.5rem;
+}
+.title h2{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.card-3 .MG img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    height: 100px;
+
+}
